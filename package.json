@@ -1,0 +1,17 @@
+{
+  "name": "user-authentication-api",
+  "version": "1.0.0",
+  "description": "Microservice Authentication",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "author": "Mateus D",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4"
+  }
+}
